@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d846f7dcb707e7e41bec4d94cd437520
+timeCreated: 1504433666
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Necromancer
+  fontNames:
+  - Necromancer
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

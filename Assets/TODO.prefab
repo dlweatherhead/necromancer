@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1653956687038808}
+  m_IsPrefabParent: 1
+--- !u!1 &1653956687038808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4750088460715920}
+  - component: {fileID: 114717258151597330}
+  m_Layer: 0
+  m_Name: TODO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4750088460715920
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653956687038808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.769703, y: 0.7883743, z: 39.440014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114717258151597330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653956687038808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948c6eac03994cd49bad23b71ceeec7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: NECROMANCER
+  textList:
+  - s: 'Improve Random Dungeon
+
+      Using Random Dungeon Generation, looking more cave style than rectangular
+
+
+      Sample: https://www.youtube.com/watch?v=v7yyZZjF1z4&list=PLFt_AvWsXl0eZgMK_DT5_biRkWXftAOf9'
+    state: 0
+    show: 1
+    deleteQuestion: 0
+  - s: 'Post Improved Dungeon
+
+      Add better item, enemy, etc. generation in procedural dungeon'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: 'Improve Minion Targeting
+
+      Targeting relative to current direction from target around target as opposed
+      to random'
+    state: 0
+    show: 1
+    deleteQuestion: 0
+  - s: 'Improve Enemy Targeting
+
+      Targeting relative to current direction around enemy'
+    state: 0
+    show: 1
+    deleteQuestion: 0
+  - s: 'Improve Minion Move
+
+      Refactor form random to more coordinated moving'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: 'Improve Enemy Guarding
+
+      Improve the target selection and return to guard station'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: 'Input
+
+      Add better touch controls
+
+      Add better keyboard input'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: 'Controller
+
+      Research Controller imput viability'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: '[META] Models
+
+      Create improved models'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: '[META] Dungeon Content
+
+      Add more varied dungeon content'
+    state: 0
+    show: 0
+    deleteQuestion: 0
+  - s: '[META] Minion/Enemy
+
+      Add more minion and enemy models and types'
+    state: 0
+    show: 0
+    deleteQuestion: 0

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7d09d169d0efdfb41884df1fe3d88ad3
+timeCreated: 1504432959
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Summer Hearts
+  fontNames:
+  - Summer Hearts
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
