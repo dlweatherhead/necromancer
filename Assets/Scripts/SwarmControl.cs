@@ -71,7 +71,7 @@ public class SwarmControl : MonoBehaviour {
 	private void MoveMinionsToPosition(Vector3 destination) {
 		if (OnMoveAction != null) {
 			int listenerCount = OnMoveAction.GetInvocationList ().Length;
-			if (listenerCount <= 3) {				
+			if (listenerCount <= 3) {
 				OnMoveAction (destination, moveRadius / 3f);
 			} else if (listenerCount <= 6) {
 				OnMoveAction (destination, moveRadius / 2f);

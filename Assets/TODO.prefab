@@ -53,6 +53,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: NECROMANCER
   textList:
+  - s: 'Fixe Gameobjects position coords
+
+      objects have hardcoded values that should be removed
+
+      and instead use relational information
+
+      Main bug cause, setting y coord to -0.5f'
+    state: 0
+    show: 1
+    deleteQuestion: 0
+  - s: 'Map Generation point
+
+      Map should generate from 0 at top left
+
+      or map positions should be stored in a new map'
+    state: 0
+    show: 1
+    deleteQuestion: 0
   - s: 'Improve Random Dungeon
 
       Using Random Dungeon Generation, looking more cave style than rectangular
@@ -124,4 +142,18 @@ MonoBehaviour:
       Add more minion and enemy models and types'
     state: 0
     show: 0
+    deleteQuestion: 0
+  - s: 'Minon / Enemy Navigation
+
+      Update Minion and enemies to navigate as agents on navmesh'
+    state: 0
+    show: 1
+    deleteQuestion: 0
+  - s: 'Generating ground
+
+      Generate ground from output of map generator
+
+      Generate ground as navmesh '
+    state: 0
+    show: 1
     deleteQuestion: 0

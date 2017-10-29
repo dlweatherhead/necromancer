@@ -14,7 +14,7 @@ public class SwarmFollow : MonoBehaviour {
 	void Start() {
 		GameObject o = GameObject.FindGameObjectWithTag ("Starting Point");
 		if (o == null) {
-			o = GameObject.Find ("StartingPoint");
+			o = GameObject.Find ("Starting Point");
 		}
 		transform.position = o.transform.position;
 	}

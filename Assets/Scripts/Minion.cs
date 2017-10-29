@@ -87,7 +87,7 @@ public class Minion : UnitStats, DeathEventInterface {
 		slightDelayTimerEnd = Time.time + moveDelay;
 		float x = Random.Range (-radius, radius);
 		float z = Random.Range (-radius, radius);
-		newDestination = new Vector3 (destination.x + x, 0.5f, destination.z + z);
+		newDestination = new Vector3 (destination.x + x, transform.position.y, destination.z + z);
 	}
 
 	void AttackTarget (GameObject target, float radius) {

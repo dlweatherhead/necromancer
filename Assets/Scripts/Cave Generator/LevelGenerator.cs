@@ -1,23 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour {
 
 	public GameObject corpse;
-
 	public int numberOfCorpses;
+	
+	public GameObject enemy;
+	public int numberOfEnemies;
 
-	void Update() {
+	private void Awake() {
 		MapGenerator mapGen = GetComponent<MapGenerator>();
 
-		if (Input.GetMouseButtonDown(0)) {
-			mapGen.GenerateMap();
+		mapGen.GenerateMap();
 
-//			Position[] validPositions = GenerateMapOfValidPositions (map);
-//
-//			PopulateMapWithObject (validPositions, numberOfCorpses, corpse);
-		}
+		Position[] validPositions = GenerateMapOfValidPositions (mapGen.map);
+		PopulateMapWithObject (validPositions, numberOfCorpses, corpse);
+		PopulateMapWithObject(validPositions, numberOfEnemies, enemy);
+
+		var randomPosition = Random.Range(0, validPositions.Length);
+		var startingPoint = new Vector3(validPositions[randomPosition].x -25, 0f, validPositions[randomPosition].y -25);
+		GameObject startingCorpse = Instantiate(corpse, startingPoint, Quaternion.identity);
+		startingCorpse.name = "Starting Point";
+		startingCorpse.tag = "Starting Point";
 	}
 
 	private Position[] GenerateMapOfValidPositions(int[,] map) {
@@ -38,7 +43,7 @@ public class LevelGenerator : MonoBehaviour {
 		for (int i = 0; i < amount; i++) {
 			int randomPosition = Random.Range (0, length);
 
-			Instantiate (obj, new Vector3 (map [randomPosition].x, -1, map [randomPosition].y), Quaternion.identity);
+			Instantiate (obj, new Vector3 (map [randomPosition].x -25, -1.25f, map [randomPosition].y -25), Quaternion.identity);
 		}
 	}
 
