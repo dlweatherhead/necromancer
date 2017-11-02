@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d37c6e-5047-4e90-886c-b1b85a36510a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/NavMeshComponents" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.necromancer/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.necromancer/.idea/contentModel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.necromancer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.necromancer/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Dungeon.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dungeon.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Test_MapGeneration.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_MapGeneration.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Cave Generator/LevelGenerator.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Cave Generator/LevelGenerator.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Cave Generator/MeshGenerator.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Cave Generator/MeshGenerator.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/NavMeshComponents" afterPath="$PROJECT_DIR$/assets/NavMeshComponents" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +16,8 @@
       <file leaf-file-name="MeshGenerator.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cave Generator/MeshGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="100">
+              <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
               <folding>
                 <marker date="1509652695323" expanded="true" signature="6:52" ph="..." />
                 <marker date="1509652695323" expanded="true" signature="97:11247" ph="{...}" />
@@ -454,12 +446,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509296766422</updated>
       <workItem from="1509296770184" duration="9638000" />
-      <workItem from="1509649905862" duration="2788000" />
+      <workItem from="1509649905862" duration="3124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12426000" />
+    <option name="totallyTimeSpent" value="12762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,7 +464,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="675" y="0" width="1250" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1081,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cave Generator/MeshGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="100">
+          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding>
             <marker date="1509652695323" expanded="true" signature="6:52" ph="..." />
             <marker date="1509652695323" expanded="true" signature="97:11247" ph="{...}" />
