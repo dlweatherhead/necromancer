@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(GenerateNavMesh))]
 public class LevelGenerator : MonoBehaviour {
 
 	public GameObject corpse;
@@ -23,6 +24,8 @@ public class LevelGenerator : MonoBehaviour {
 		GameObject startingCorpse = Instantiate(corpse, startingPoint, Quaternion.identity);
 		startingCorpse.name = "Starting Point";
 		startingCorpse.tag = "Starting Point";
+
+		GetComponent<GenerateNavMesh>().Generate();
 	}
 
 	private Position[] GenerateMapOfValidPositions(int[,] map) {

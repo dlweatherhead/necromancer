@@ -1,0 +1,3 @@
+[submodule "assets/NavMeshComponents"]
+	path = assets/NavMeshComponents
+	url = git@github.com:Unity-Technologies/NavMeshComponents.git
