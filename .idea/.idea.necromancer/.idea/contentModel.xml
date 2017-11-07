@@ -19,7 +19,6 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
-        <e p="DirectedAgent.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="BuildScript" t="Include">
             <e p="BuildScript.cs" t="Include" />
@@ -33,7 +32,7 @@
             </e>
           </e>
         </e>
-        <e p="GenerateNavMesh.cs" t="Include" />
+        <e p="MinimapFollowScript.cs" t="Include" />
         <e p="NavMeshComponents" t="Include">
           <e p="Assets" t="Include">
             <e p="Examples" t="Include">
@@ -260,10 +259,12 @@
             <e p="MeshGenerator.cs" t="Include" />
           </e>
           <e p="DeathEventInterface.cs" t="Include" />
+          <e p="DirectedAgent.cs" t="Include" />
           <e p="DungeonCreator.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="FinishListener.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="GenerateNavMesh.cs" t="Include" />
           <e p="GibletSpawner.cs" t="Include" />
           <e p="GuardStation.cs" t="Include" />
           <e p="Minion.cs" t="Include" />
