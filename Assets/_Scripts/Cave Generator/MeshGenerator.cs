@@ -6,6 +6,7 @@ public class MeshGenerator : MonoBehaviour {
 	public SquareGrid squareGrid;
 	public MeshFilter walls;
 	public MeshFilter cave;
+	public MeshFilter floor;
 
 	List<Vector3> vertices;
 	List<int> triangles;
@@ -62,6 +63,19 @@ public class MeshGenerator : MonoBehaviour {
 		Mesh wallMesh = new Mesh ();
 		float wallHeight = 2;
 
+		// Calculate floor mesh
+		List<Vector3> floorVertices = new List<Vector3>();
+		Mesh floorMesh = new Mesh();
+
+		foreach (List<int> outline in outlines) {
+			for (int i = 0; i < outline.Count -1; i ++) {
+				wallVertices.Add(vertices[outline[i]]); // left
+				wallVertices.Add(vertices[outline[i+1]]); // right
+			}
+		}
+		floorMesh.vertices = floorVertices.ToArray ();
+		floor.mesh = floorMesh;
+
 		foreach (List<int> outline in outlines) {
 			for (int i = 0; i < outline.Count -1; i ++) {
 				int startIndex = wallVertices.Count;
@@ -82,6 +96,9 @@ public class MeshGenerator : MonoBehaviour {
 		wallMesh.vertices = wallVertices.ToArray ();
 		wallMesh.triangles = wallTriangles.ToArray ();
 		walls.mesh = wallMesh;
+
+		MeshCollider floorCollider = gameObject.AddComponent<MeshCollider> ();
+		floorCollider.sharedMesh = floorMesh;
 
 		MeshCollider wallCollider = gameObject.AddComponent<MeshCollider> ();
 		wallCollider.sharedMesh = wallMesh;
