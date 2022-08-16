@@ -2,6 +2,10 @@
 
 This is my entry for the Free Lives Game Jam for 2017, with the theme Collection.
 
+The game is playable and downloadable on [itch.io](dlw.itch.io/necromancer).
+
+Free Lives is a South African game developer, you can find out more [here](https://freelives.net/).
+
 ## Description
 
 I wanted to capture the feeling of controlling a large flock or swarm of creatures, with inspiration coming from the Overlord games.
